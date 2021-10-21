@@ -1,0 +1,44 @@
+{
+  "name": "@labshare/jupyterlab-rjsf",
+  "version": "1.0.3",
+  "description": "React JSON Schema Form for JupyterLab",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/ktaletsk/jupyterlab-rjsf",
+  "bugs": {
+    "url": "https://github.com/ktaletsk/jupyterlab-rjsf/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "dead pixels collective",
+  "files": [
+    "{lib,style,src}/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf,css,ts,tsx}",
+    "LICENSE"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ktaletsk/jupyterlab-rjsf.git"
+  },
+  "scripts": {
+    "bundle": "npm pack .",
+    "clean": "rimraf lib",
+    "upload": "jlpm publish ."
+  },
+  "dependencies": {
+    "@rjsf/core": "~2.5.1",
+    "react-codemirror2": "^7.2.1",
+    "@jupyterlab/apputils": "3",
+    "@jupyterlab/rendermime": "3"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/codemirror": "^0.0.97",
+    "react": "^17.0.1",
+    "rimraf": "~3.0.0",
+    "typescript": "~4.2.3"
+  }
+}
