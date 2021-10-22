@@ -46,3 +46,12 @@ const formData: any = {
 
 SchemaForm(schema, { formData: formData })
 ```
+
+## Development
+
+To build package, run
+
+```
+npm install
+npx tsc
+```
