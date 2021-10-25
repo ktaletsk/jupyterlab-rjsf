@@ -1,18 +1,18 @@
 {
-  "name": "@labshare/jupyterlab-rjsf",
-  "version": "1.1.0",
+  "name": "@polusai/jupyterlab-rjsf",
+  "version": "1.1.1",
   "description": "React JSON Schema Form for JupyterLab",
   "keywords": [
     "jupyter",
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/ktaletsk/jupyterlab-rjsf",
+  "homepage": "https://github.com/PolusAI/jupyterlab-rjsf",
   "bugs": {
-    "url": "https://github.com/ktaletsk/jupyterlab-rjsf/issues"
+    "url": "https://github.com/PolusAI/jupyterlab-rjsf/issues"
   },
   "license": "BSD-3-Clause",
-  "author": "dead pixels collective",
+  "author": "LabShare",
   "files": [
     "{lib,style,src}/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf,css,ts,tsx}",
     "LICENSE"
@@ -21,7 +21,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ktaletsk/jupyterlab-rjsf.git"
+    "url": "https://github.com/PolusAI/jupyterlab-rjsf.git"
   },
   "scripts": {
     "bundle": "npm pack .",

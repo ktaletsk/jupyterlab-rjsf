@@ -24,7 +24,10 @@
 }
 
 .jp-SchemaForm button[type='submit'] {
-  display: none;
+  color: #000000;
+  background-color: var(--jp-brand-color2);;
+  border: 1px solid var(--jp-brand-color2);
+  text-transform: uppercase;
 }
 
 .jp-SchemaForm .control-label,

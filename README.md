@@ -52,6 +52,6 @@ SchemaForm(schema, { formData: formData })
 To build package, run
 
 ```
-npm install
+npm install --force
 npx tsc
 ```
